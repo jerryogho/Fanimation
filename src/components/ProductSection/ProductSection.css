@@ -1,0 +1,70 @@
+.product-section{
+    background: #fff;
+}
+.section-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 0;
+}
+.product-count{
+    font-size: 15px;
+    font-weight: 500;
+    color: #777;
+}
+.benefit-box{
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .05);
+    border-radius: 10px;
+}
+.product-box{
+    padding: 0 20 px;
+}
+.benefit-box{
+    background: #f4fbf6;
+    border-radius: 12px;
+    padding: 22px 16px;
+    width: 200px;
+    margin-top:78px;
+}
+@media(min-width: 368px){
+    .benefit-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.benefit-item{
+    text-align: center;
+    padding: 12px 0;
+}
+.benefit-icon{
+    color: #146941;
+    margin-bottom: 12px;
+}
+.benefit-item h5{
+    color: #146941;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.benefit-item p{
+    color: #146941;
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+.benefit-box hr{
+    margin: 0;
+    opacity: .15;
+}
+/* Heights just for layout */
+.product-box{
+    min-height: 420px;
+}
+.benefit-box{
+    min-height: 420px;
+}

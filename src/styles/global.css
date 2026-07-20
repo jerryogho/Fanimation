@@ -1,0 +1,34 @@
+html{
+    scroll-behavior: smooth;
+}
+section[id]{
+    scroll-margin-top: 90px;
+}
+a:focus,
+a:focus-visible,
+button:focus,
+button:focus-visible,
+select:focus,
+select:focus-visible,
+input:focus,
+input:focus-visible,
+textarea:focus,
+textarea:focus-visible,
+.btn:focus,
+.btn:focus-visible,
+.nav-link:focus,
+.nav-link:focus-visible,
+.navbar-toggler:focus,
+.navbar-toggler:focus-visible,
+.form-select:focus,
+.form-select:focus-visible,
+.form-control:focus,
+.form-control:focus-visible,
+.wishlist-icon:focus,
+.wishlist-icon:focus-visible,
+.nav-icon-group:focus,
+.nav-icon-group:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
