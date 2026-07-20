@@ -1,0 +1,347 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 4188 >>
+stream
+BT /F1 9 Tf 45 760 Td (ePROJECT REPORT) Tj ET
+BT /F1 9 Tf 45 748 Td (FANIMATION) Tj ET
+BT /F1 9 Tf 45 736 Td (A Simple React Fan Catalogue Website) Tj ET
+BT /F1 9 Tf 45 724 Td (This report is based on the Fanimation project source code that was provided.) Tj ET
+BT /F1 9 Tf 45 712 Td (It explains only what is in the project.) Tj ET
+BT /F2 15 Tf 45 700 Td (Table of Contents) Tj ET
+BT /F1 9 Tf 45 675 Td (Update this automatic table in Microsoft Word before printing: right-click it) Tj ET
+BT /F1 9 Tf 45 663 Td (and choose Update Field.) Tj ET
+BT /F2 15 Tf 45 651 Td (Acknowledgements) Tj ET
+BT /F1 9 Tf 45 626 Td (We thank our lecturers and classmates for their support during this project.) Tj ET
+BT /F1 9 Tf 45 614 Td (We also thank everyone who gave us advice while we were learning React and web) Tj ET
+BT /F1 9 Tf 45 602 Td (development. This report explains our work in a clear and simple way.) Tj ET
+BT /F2 15 Tf 45 590 Td (1. eProject Synopsis) Tj ET
+BT /F2 12 Tf 45 565 Td (1.1 Introduction) Tj ET
+BT /F1 9 Tf 45 549 Td (Fanimation is a one-page website for showing fan products and accessories. A) Tj ET
+BT /F1 9 Tf 45 537 Td (user can look through products, filter them, open product details, add items) Tj ET
+BT /F1 9 Tf 45 525 Td (to a temporary cart, and use a contact form.) Tj ET
+BT /F2 12 Tf 45 513 Td (1.2 Purpose, Objectives and Scope) Tj ET
+BT /F1 9 Tf 45 497 Td (Show 15 fan and accessory products in a neat catalogue.) Tj ET
+BT /F1 9 Tf 45 485 Td (Let users filter by category, type, price, colour and brand.) Tj ET
+BT /F1 9 Tf 45 473 Td (Let users sort products, view details, save favourites and use a simple cart.) Tj ET
+BT /F1 9 Tf 45 461 Td (Show gallery, offers, about, FAQ and contact sections.) Tj ET
+BT /F1 9 Tf 45 449 Td (The project is front-end only. It has no login, database, payment, real) Tj ET
+BT /F1 9 Tf 45 437 Td (checkout, product search bar, or message sending service.) Tj ET
+BT /F2 12 Tf 45 425 Td (1.3 Technologies Used) Tj ET
+BT /F2 12 Tf 45 409 Td (1.4 Expected Outcome) Tj ET
+BT /F1 9 Tf 45 393 Td (The finished website gives a simple shopping-style experience where visitors) Tj ET
+BT /F1 9 Tf 45 381 Td (can discover Fanimation products without leaving the page.) Tj ET
+BT /F2 15 Tf 45 369 Td (2. eProject Analysis) Tj ET
+BT /F2 12 Tf 45 344 Td (2.1 Existing and Proposed System) Tj ET
+BT /F1 9 Tf 45 328 Td (There is no older system inside the uploaded files. The proposed system is the) Tj ET
+BT /F1 9 Tf 45 316 Td (website that was built: a front-end product catalogue. It solves the problem) Tj ET
+BT /F1 9 Tf 45 304 Td (of showing many fan types in one place with filters instead of making users) Tj ET
+BT /F1 9 Tf 45 292 Td (check products one by one.) Tj ET
+BT /F2 12 Tf 45 280 Td (2.2 Requirements Found in the Code) Tj ET
+BT /F2 12 Tf 45 264 Td (2.3 Non-functional Requirements) Tj ET
+BT /F1 9 Tf 45 248 Td (The site is responsive, uses simple labelled form fields, has alt text on) Tj ET
+BT /F1 9 Tf 45 236 Td (images, and uses Bootstrap plus custom CSS. It loads product data locally, so) Tj ET
+BT /F1 9 Tf 45 224 Td (there is no API delay in the current version.) Tj ET
+BT /F2 12 Tf 45 212 Td (2.4 Assumptions, Constraints and Feasibility) Tj ET
+BT /F1 9 Tf 45 196 Td (Prices are stored as text like 95,000 and changed into numbers when needed.) Tj ET
+BT /F1 9 Tf 45 184 Td (The cart and favourites are lost when the page refreshes. The project is easy) Tj ET
+BT /F1 9 Tf 45 172 Td (to run as a demo because it does not need a server. For a real shop, it would) Tj ET
+BT /F1 9 Tf 45 160 Td (need a backend, database and payment system.) Tj ET
+BT /F2 15 Tf 45 148 Td (3. eProject Design) Tj ET
+BT /F2 12 Tf 45 123 Td (3.1 Architecture) Tj ET
+BT /F1 9 Tf 45 107 Td (The browser opens index.html. main.jsx starts React and renders App.jsx. App) Tj ET
+BT /F1 9 Tf 45 95 Td (puts all the page sections together and keeps shared cart and favourite data.) Tj ET
+BT /F1 9 Tf 45 83 Td (ProductSection reads the product data and handles filters.) Tj ET
+BT /F2 10 Tf 45 71 Td (Figure 1. Simple system architecture) Tj ET
+BT /F1 8 Tf 45 57 Td (Mermaid diagram:) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 1) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4914 >>
+stream
+BT /F1 9 Tf 45 760 Td (flowchart TD Browser --> main[src/main.jsx] --> App App --> Navbar & Hero &) Tj ET
+BT /F1 9 Tf 45 748 Td (ProductSection & CartDrawer & Gallery & Offers & About & FAQ & Contact &) Tj ET
+BT /F1 9 Tf 45 736 Td (Footer ProductSection --> ProductFilter & ProductGrid ProductGrid -->) Tj ET
+BT /F1 9 Tf 45 724 Td (ProductCard --> ProductModal Data[\(products.js\)] --> ProductSection) Tj ET
+BT /F2 12 Tf 45 712 Td (3.2 Folder Structure) Tj ET
+BT /F1 9 Tf 45 696 Td (src/   components/     page parts such as Navbar, Gallery and Contact) Tj ET
+BT /F1 9 Tf 45 684 Td (data/products.js  15 product objects and price helper   assets/images/) Tj ET
+BT /F1 9 Tf 45 672 Td (logo, hero image and product images   styles/global.css global page rules) Tj ET
+BT /F1 9 Tf 45 660 Td (App.jsx           main page and shared state   main.jsx          React start) Tj ET
+BT /F1 9 Tf 45 648 Td (file) Tj ET
+BT /F2 12 Tf 45 636 Td (3.3 Navigation, State and Data Flow) Tj ET
+BT /F1 9 Tf 45 620 Td (Navbar and footer links scroll to sections. Category links send a small) Tj ET
+BT /F1 9 Tf 45 608 Td (browser event to ProductSection so it can select the right category. App holds) Tj ET
+BT /F1 9 Tf 45 596 Td (favouriteIds, cartItems and isCartOpen. ProductSection holds filter values.) Tj ET
+BT /F1 9 Tf 45 584 Td (Other components keep their own small state, for example the gallery image and) Tj ET
+BT /F1 9 Tf 45 572 Td (contact form.) Tj ET
+BT /F2 12 Tf 45 560 Td (3.4 Filtering and Modal Design) Tj ET
+BT /F1 9 Tf 45 544 Td (The filter checks category, type, colour, brand and maximum price. It then) Tj ET
+BT /F1 9 Tf 45 532 Td (sorts by rating, newest product ID, or price. Clicking View Details opens a) Tj ET
+BT /F1 9 Tf 45 520 Td (React modal. The modal closes with the close button, the background, or the) Tj ET
+BT /F1 9 Tf 45 508 Td (Escape key.) Tj ET
+BT /F2 10 Tf 45 496 Td (Figure 2. Product filtering flow) Tj ET
+BT /F1 8 Tf 45 482 Td (Mermaid diagram:) Tj ET
+BT /F1 9 Tf 45 472 Td (flowchart TD User --> Filter[Choose filter or sort] Filter --> State[Update) Tj ET
+BT /F1 9 Tf 45 460 Td (filter state] State --> Check[Check local product list] Check --> Sort[Sort) Tj ET
+BT /F1 9 Tf 45 448 Td (matching products] Sort --> Grid[Show cards or no-products message]) Tj ET
+BT /F2 12 Tf 45 436 Td (3.5 Responsive Design and Styling) Tj ET
+BT /F1 9 Tf 45 420 Td (Bootstrap grid classes control most layouts. Product cards use three columns) Tj ET
+BT /F1 9 Tf 45 408 Td (on large screens and two on medium screens. The gallery moves from four to) Tj ET
+BT /F1 9 Tf 45 396 Td (three to two columns as the screen becomes smaller. The mobile navigation uses) Tj ET
+BT /F1 9 Tf 45 384 Td (an overlay panel.) Tj ET
+BT /F2 15 Tf 45 372 Td (4. DFDs, Flowcharts and Process Diagrams) Tj ET
+BT /F2 10 Tf 45 347 Td (4.1 Context DFD) Tj ET
+BT /F1 8 Tf 45 333 Td (Mermaid diagram:) Tj ET
+BT /F1 9 Tf 45 323 Td (flowchart LR Visitor -->|clicks, filters, form input| Site[Fanimation React) Tj ET
+BT /F1 9 Tf 45 311 Td (website] Site -->|products and feedback| Visitor Products[\(Local products.js\)]) Tj ET
+BT /F1 9 Tf 45 299 Td (--> Site Site <--> Storage[\(Browser storage for visitor count\)]) Tj ET
+BT /F2 10 Tf 45 287 Td (4.2 Level 1 DFD) Tj ET
+BT /F1 8 Tf 45 273 Td (Mermaid diagram:) Tj ET
+BT /F1 9 Tf 45 263 Td (flowchart TD Visitor --> Navigation --> Sections Visitor --> Catalogue -->) Tj ET
+BT /F1 9 Tf 45 251 Td (Products[\(products.js\)] Catalogue --> ProductCards Visitor --> CartFavorites) Tj ET
+BT /F1 9 Tf 45 239 Td (--> AppState[\(React state\)] Visitor --> Contact --> Validation --> Message[On-) Tj ET
+BT /F1 9 Tf 45 227 Td (screen success message]) Tj ET
+BT /F2 10 Tf 45 215 Td (4.3 Product details flowchart) Tj ET
+BT /F1 8 Tf 45 201 Td (Mermaid diagram:) Tj ET
+BT /F1 9 Tf 45 191 Td (flowchart TD Click[Click View Details] --> Modal[Open product modal] Modal -->) Tj ET
+BT /F1 9 Tf 45 179 Td (Choice{Choose action} Choice -->|Add to Cart| Cart[Update cart and open) Tj ET
+BT /F1 9 Tf 45 167 Td (drawer] Choice -->|Heart| Favourite[Update favourite list] Choice -->|Close /) Tj ET
+BT /F1 9 Tf 45 155 Td (Escape / backdrop| End[Close modal]) Tj ET
+BT /F2 10 Tf 45 143 Td (4.4 Contact and full website process) Tj ET
+BT /F1 8 Tf 45 129 Td (Mermaid diagram:) Tj ET
+BT /F1 9 Tf 45 119 Td (flowchart TD Start --> Browse[Browse or filter products] Browse -->) Tj ET
+BT /F1 9 Tf 45 107 Td (Details[View details or add to cart] Start --> Other[Gallery, offers, FAQ or) Tj ET
+BT /F1 9 Tf 45 95 Td (about] Start --> Contact[Fill contact form] Contact --> Validate{Valid?}) Tj ET
+BT /F1 9 Tf 45 83 Td (Validate -->|No| Errors[Show errors] Validate -->|Yes| Confirm[Show local) Tj ET
+BT /F1 9 Tf 45 71 Td (confirmation] Confirm --> Note[No message is sent in this version]) Tj ET
+BT /F2 15 Tf 45 59 Td (5. Database Design / Structure) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 2) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4630 >>
+stream
+BT /F1 9 Tf 45 760 Td (Current project: there is no database. Product data is inside products.js. The) Tj ET
+BT /F1 9 Tf 45 748 Td (design below is only a future production idea.) Tj ET
+BT /F2 10 Tf 45 736 Td (5.1 Proposed ER Diagram) Tj ET
+BT /F1 8 Tf 45 722 Td (Mermaid diagram:) Tj ET
+BT /F1 9 Tf 45 712 Td (erDiagram CATEGORY ||--o{ PRODUCT : has PRODUCT ||--o{ REVIEW : receives USER) Tj ET
+BT /F1 9 Tf 45 700 Td (||--o{ REVIEW : writes USER ||--o{ WISHLIST : saves PRODUCT ||--o{ WISHLIST :) Tj ET
+BT /F1 9 Tf 45 688 Td (is_saved USER ||--o{ ORDER : places ORDER ||--|{ ORDER_ITEM : contains PRODUCT) Tj ET
+BT /F1 9 Tf 45 676 Td (||--o{ ORDER_ITEM : ordered USER ||--o{ CONTACT_MESSAGE : sends) Tj ET
+BT /F1 9 Tf 45 664 Td (The future design is normalized because products, users, reviews and orders) Tj ET
+BT /F1 9 Tf 45 652 Td (are stored in separate tables. This avoids repeating the same data many times.) Tj ET
+BT /F2 15 Tf 45 640 Td (6. Screenshot Placeholders) Tj ET
+BT /F1 9 Tf 45 615 Td (Take these screenshots after running the website. They are placeholders) Tj ET
+BT /F1 9 Tf 45 603 Td (because the source upload did not include final screenshots.) Tj ET
+BT /F1 8 Tf 45 591 Td (Figure 1. Homepage / Hero Banner - Top bar, logo, hero text and Explore) Tj ET
+BT /F1 8 Tf 45 581 Td (Collection button.) Tj ET
+BT /F1 8 Tf 45 571 Td (Figure 2. Products and Filters - Filter sidebar, cards, sorting and benefit) Tj ET
+BT /F1 8 Tf 45 561 Td (box.) Tj ET
+BT /F1 8 Tf 45 551 Td (Figure 3. Product Modal and Cart - A product modal and open cart drawer.) Tj ET
+BT /F1 8 Tf 45 541 Td (Figure 4. Gallery and Offers - Gallery cards and offer cards.) Tj ET
+BT /F1 8 Tf 45 531 Td (Figure 5. FAQ, Contact and Footer - Accordion and contact form.) Tj ET
+BT /F1 8 Tf 45 521 Td (Figure 6. Mobile and Tablet View - Responsive view at small and medium screen) Tj ET
+BT /F1 8 Tf 45 511 Td (sizes.) Tj ET
+BT /F2 15 Tf 45 501 Td (7. Source Code with Comments) Tj ET
+BT /F1 9 Tf 45 476 Td (The code already has useful short comments. These are the main parts a) Tj ET
+BT /F1 9 Tf 45 464 Td (beginner should understand.) Tj ET
+BT /F2 12 Tf 45 452 Td (7.1 Cart logic) Tj ET
+BT /F1 9 Tf 45 436 Td (setCartItems\(\(prev\) => {   const existing = prev.find\(\(item\) => item.id ===) Tj ET
+BT /F1 9 Tf 45 424 Td (normalizedProduct.id\);   if \(existing\) {     return prev.map\(\(item\) => item.id) Tj ET
+BT /F1 9 Tf 45 412 Td (=== normalizedProduct.id       ? { ...item, quantity: item.quantity + 1 } :) Tj ET
+BT /F1 9 Tf 45 400 Td (item\);   }   return [...prev, { ...normalizedProduct, quantity: 1 }]; }\);) Tj ET
+BT /F1 9 Tf 45 388 Td (This checks if the product is already in the cart. If it is, quantity goes up.) Tj ET
+BT /F1 9 Tf 45 376 Td (If not, a new cart item is added.) Tj ET
+BT /F2 12 Tf 45 364 Td (7.2 Filter logic) Tj ET
+BT /F1 9 Tf 45 348 Td (if \(filters.category && product.category !== filters.category\) return false;) Tj ET
+BT /F1 9 Tf 45 336 Td (if \(filters.color && product.color !== filters.color\) return false; if) Tj ET
+BT /F1 9 Tf 45 324 Td (\(filters.price && toNumber\(product.price\) > Number\(filters.price\)\) return) Tj ET
+BT /F1 9 Tf 45 312 Td (false;) Tj ET
+BT /F1 9 Tf 45 300 Td (A product is hidden when it does not match a selected filter. toNumber changes) Tj ET
+BT /F1 9 Tf 45 288 Td (a formatted price into a number for comparison.) Tj ET
+BT /F2 12 Tf 45 276 Td (7.3 Contact validation) Tj ET
+BT /F1 9 Tf 45 260 Td (if \(!values.name.trim\(\)\) nextErrors.name = "Please enter your name."; else if) Tj ET
+BT /F1 9 Tf 45 248 Td (\(!/^\\S+@\\S+\\.\\S+$/.test\(values.email\)\)   nextErrors.email = "Please enter a) Tj ET
+BT /F1 9 Tf 45 236 Td (valid email address.";) Tj ET
+BT /F1 9 Tf 45 224 Td (The form checks for name, email and message before showing its local success) Tj ET
+BT /F1 9 Tf 45 212 Td (message.) Tj ET
+BT /F2 15 Tf 45 200 Td (8. User Guide) Tj ET
+BT /F2 15 Tf 45 175 Td (9. Developer Guide) Tj ET
+BT /F2 12 Tf 45 150 Td (9.1 Start the Project) Tj ET
+BT /F1 9 Tf 45 134 Td (npm install npm run dev npm run build npm run lint) Tj ET
+BT /F1 9 Tf 45 122 Td (Use npm run dev while developing. Main dependencies are React, Vite, Bootstrap) Tj ET
+BT /F1 9 Tf 45 110 Td (and Lucide React.) Tj ET
+BT /F2 12 Tf 45 98 Td (9.2 Add a Product) Tj ET
+BT /F1 9 Tf 45 82 Td (In src/data/products.js, add a new product object with a unique id, name,) Tj ET
+BT /F1 9 Tf 45 70 Td (category, type, colour, price, rating, reviews, image and description. If it) Tj ET
+BT /F1 9 Tf 45 58 Td (has oldPrice, it will also show in Offers.) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 3) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4935 >>
+stream
+BT /F2 12 Tf 45 760 Td (9.3 Maintain and Extend) Tj ET
+BT /F1 9 Tf 45 744 Td (Keep styles in the correct component CSS file. Add a backend before adding) Tj ET
+BT /F1 9 Tf 45 732 Td (real checkout or message sending. Add testing for filters, cart, modal and) Tj ET
+BT /F1 9 Tf 45 720 Td (contact validation. Product search is not in the project yet and should be) Tj ET
+BT /F1 9 Tf 45 708 Td (added as a new feature, not described as existing.) Tj ET
+BT /F2 12 Tf 45 696 Td (9.4 Build Note) Tj ET
+BT /F1 9 Tf 45 680 Td (During source checking, npm run build failed with a Vite/Rolldown emitted-name) Tj ET
+BT /F1 9 Tf 45 668 Td (error and npm run lint reported a React effect warning in Navbar.jsx. These) Tj ET
+BT /F1 9 Tf 45 656 Td (should be fixed before deployment.) Tj ET
+BT /F2 15 Tf 45 644 Td (10. Module Descriptions) Tj ET
+BT /F2 15 Tf 45 619 Td (11. Testing) Tj ET
+BT /F1 9 Tf 45 594 Td (There are no automated test files in the project. Manual browser testing on) Tj ET
+BT /F1 9 Tf 45 582 Td (Chrome, Firefox and Edge is recommended after fixing build and lint problems.) Tj ET
+BT /F2 15 Tf 45 570 Td (12. Conclusion and Future Improvements) Tj ET
+BT /F1 9 Tf 45 545 Td (Fanimation meets its main goal as a simple front-end fan catalogue. It shows) Tj ET
+BT /F1 9 Tf 45 533 Td (products clearly and gives useful interactions like filtering, modal details,) Tj ET
+BT /F1 9 Tf 45 521 Td (favourites, cart, gallery, offers and contact validation. We learned how React) Tj ET
+BT /F1 9 Tf 45 509 Td (components, props, state and CSS work together in one website.) Tj ET
+BT /F1 9 Tf 45 497 Td (Fix the build and lint issues.) Tj ET
+BT /F1 9 Tf 45 485 Td (Add a backend, database, login and real contact-message sending.) Tj ET
+BT /F1 9 Tf 45 473 Td (Save cart and favourites for users.) Tj ET
+BT /F1 9 Tf 45 461 Td (Add real checkout, payment and orders.) Tj ET
+BT /F1 9 Tf 45 449 Td (Add product search and automated tests.) Tj ET
+BT /F1 9 Tf 45 437 Td (Replace placeholders with group details and real screenshots before) Tj ET
+BT /F1 9 Tf 45 425 Td (submission.) Tj ET
+BT /F1 8 Tf 45 413 Td (Group member | Student ID) Tj ET
+BT /F1 8 Tf 45 403 Td (Student 1: __________________________ | ________________) Tj ET
+BT /F1 8 Tf 45 393 Td (Student 2: __________________________ | ________________) Tj ET
+BT /F1 8 Tf 45 383 Td (Student 3: __________________________ | ________________) Tj ET
+BT /F1 8 Tf 45 373 Td (Centre | ________________) Tj ET
+BT /F1 8 Tf 45 363 Td (Course | ________________) Tj ET
+BT /F1 8 Tf 45 353 Td (Semester / Session | ________________) Tj ET
+BT /F1 8 Tf 45 343 Td (Submission date | ________________) Tj ET
+BT /F1 8 Tf 45 333 Td (Tool | How it is used) Tj ET
+BT /F1 8 Tf 45 323 Td (React | Builds the user interface with components and state.) Tj ET
+BT /F1 8 Tf 45 313 Td (Vite | Runs and builds the React project.) Tj ET
+BT /F1 8 Tf 45 303 Td (Bootstrap | Helps with layout, forms, grid and FAQ accordion.) Tj ET
+BT /F1 8 Tf 45 293 Td (Lucide React | Shows icons.) Tj ET
+BT /F1 8 Tf 45 283 Td (CSS | Styles every component and makes the page responsive.) Tj ET
+BT /F1 8 Tf 45 273 Td (Requirement | Status) Tj ET
+BT /F1 8 Tf 45 263 Td (Navigation between page sections | Implemented with smooth in-page links.) Tj ET
+BT /F1 8 Tf 45 253 Td (Product catalogue | Implemented with 15 local product records.) Tj ET
+BT /F1 8 Tf 45 243 Td (Filters and sorting | Implemented.) Tj ET
+BT /F1 8 Tf 45 233 Td (Product details modal | Implemented.) Tj ET
+BT /F1 8 Tf 45 223 Td (Favourites and cart | Implemented but only kept in React memory.) Tj ET
+BT /F1 8 Tf 45 213 Td (Gallery, offers, FAQ, about and contact | Implemented.) Tj ET
+BT /F1 8 Tf 45 203 Td (Contact validation | Implemented; the form does not send data.) Tj ET
+BT /F1 8 Tf 45 193 Td (Real checkout, login, database and search | Not implemented.) Tj ET
+BT /F1 8 Tf 45 183 Td (Table | Important fields | Simple rules) Tj ET
+BT /F1 8 Tf 45 173 Td (Categories | category_id PK, name | Name should be unique.) Tj ET
+BT /F1 8 Tf 45 163 Td (Products | product_id PK, category_id FK, name, price, description | Price) Tj ET
+BT /F1 8 Tf 45 153 Td (must not be negative.) Tj ET
+BT /F1 8 Tf 45 143 Td (Users | user_id PK, name, email | Email should be unique.) Tj ET
+BT /F1 8 Tf 45 133 Td (Reviews | review_id PK, product_id FK, user_id FK, rating | Rating should be 1) Tj ET
+BT /F1 8 Tf 45 123 Td (to 5.) Tj ET
+BT /F1 8 Tf 45 113 Td (Contact Messages | message_id PK, name, email, message | Save messages sent) Tj ET
+BT /F1 8 Tf 45 103 Td (from the form.) Tj ET
+BT /F1 8 Tf 45 93 Td (Wishlist | user_id FK, product_id FK | One saved product per user.) Tj ET
+BT /F1 8 Tf 45 83 Td (Orders / Order Items | order_id PK; product_id FK; quantity; unit_price |) Tj ET
+BT /F1 8 Tf 45 73 Td (Needed for real checkout.) Tj ET
+BT /F1 8 Tf 45 63 Td ([Screenshot placeholder] Homepage / Hero Banner) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 4) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 3470 >>
+stream
+BT /F1 8 Tf 45 760 Td ([Screenshot placeholder] Products and Filters) Tj ET
+BT /F1 8 Tf 45 750 Td ([Screenshot placeholder] Product Modal and Cart) Tj ET
+BT /F1 8 Tf 45 740 Td ([Screenshot placeholder] Gallery and Offers) Tj ET
+BT /F1 8 Tf 45 730 Td ([Screenshot placeholder] FAQ, Contact and Footer) Tj ET
+BT /F1 8 Tf 45 720 Td ([Screenshot placeholder] Mobile and Tablet View) Tj ET
+BT /F1 8 Tf 45 710 Td (Task | How to do it) Tj ET
+BT /F1 8 Tf 45 700 Td (Move around the site | Use the navigation bar, footer links or Explore) Tj ET
+BT /F1 8 Tf 45 690 Td (Collection button.) Tj ET
+BT /F1 8 Tf 45 680 Td (Find a product | Choose a category or use the filters and Sort By menu.) Tj ET
+BT /F1 8 Tf 45 670 Td (See more information | Click View Details. Close with X, background click or) Tj ET
+BT /F1 8 Tf 45 660 Td (Escape.) Tj ET
+BT /F1 8 Tf 45 650 Td (Save / add items | Use the heart for favourite and Add to Cart in the modal.) Tj ET
+BT /F1 8 Tf 45 640 Td (Change cart quantity | Open the cart icon and use minus or plus.) Tj ET
+BT /F1 8 Tf 45 630 Td (Contact the team | Enter name, valid email and message, then Send Message.) Tj ET
+BT /F1 8 Tf 45 620 Td (Important note | The cart, checkout and contact form are demo features only.) Tj ET
+BT /F1 8 Tf 45 610 Td (Data is not saved or sent.) Tj ET
+BT /F1 8 Tf 45 600 Td (Module | What it does) Tj ET
+BT /F1 8 Tf 45 590 Td (App | Shows all sections and keeps shared cart/favourite state.) Tj ET
+BT /F1 8 Tf 45 580 Td (Navbar / Ticker / Hero | Top navigation, moving announcements and hero) Tj ET
+BT /F1 8 Tf 45 570 Td (section.) Tj ET
+BT /F1 8 Tf 45 560 Td (ProductSection / ProductFilter / ProductGrid | Filters and displays the) Tj ET
+BT /F1 8 Tf 45 550 Td (product catalogue.) Tj ET
+BT /F1 8 Tf 45 540 Td (ProductCard / ProductModal | Shows summary cards and detailed product pop-up.) Tj ET
+BT /F1 8 Tf 45 530 Td (CartDrawer | Shows cart items, quantities and subtotal.) Tj ET
+BT /F1 8 Tf 45 520 Td (Gallery / Offers | Shows product images and discounted products.) Tj ET
+BT /F1 8 Tf 45 510 Td (About / FAQ / Contact / Footer | Static company sections, FAQ accordion,) Tj ET
+BT /F1 8 Tf 45 500 Td (validation form and footer.) Tj ET
+BT /F1 8 Tf 45 490 Td (products.js | Stores 15 product records and toNumber helper.) Tj ET
+BT /F1 8 Tf 45 480 Td (Test | Expected result | Result from review) Tj ET
+BT /F1 8 Tf 45 470 Td (Category filter | Only selected category appears. | Implemented in) Tj ET
+BT /F1 8 Tf 45 460 Td (ProductSection filter logic.) Tj ET
+BT /F1 8 Tf 45 450 Td (Sort | Cards change order by rating, id or price. | Implemented.) Tj ET
+BT /F1 8 Tf 45 440 Td (Modal | Open and close correctly. | Implemented with Escape/backdrop support.) Tj ET
+BT /F1 8 Tf 45 430 Td (Cart | Add, increase, decrease and calculate subtotal. | Implemented in React) Tj ET
+BT /F1 8 Tf 45 420 Td (state.) Tj ET
+BT /F1 8 Tf 45 410 Td (Contact | Show errors or local success message. | Implemented; no data) Tj ET
+BT /F1 8 Tf 45 400 Td (sending.) Tj ET
+BT /F1 8 Tf 45 390 Td (Responsive layout | Page adapts to smaller screens. | CSS/Bootstrap rules) Tj ET
+BT /F1 8 Tf 45 380 Td (found; full browser test still needed.) Tj ET
+BT /F1 8 Tf 45 370 Td (Build | Project should build. | Failed in checked environment; fix before) Tj ET
+BT /F1 8 Tf 45 360 Td (deployment.) Tj ET
+BT /F1 8 Tf 45 350 Td (Lint | No errors. | One Navbar React-hooks error found.) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 5) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [ 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R ] /Count 5 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000004399 00000 n 
+0000004536 00000 n 
+0000009501 00000 n 
+0000009638 00000 n 
+0000014319 00000 n 
+0000014456 00000 n 
+0000019442 00000 n 
+0000019580 00000 n 
+0000023102 00000 n 
+0000023241 00000 n 
+0000023327 00000 n 
+trailer
+<< /Size 15 /Root 14 0 R >>
+startxref
+23378
+%%EOF

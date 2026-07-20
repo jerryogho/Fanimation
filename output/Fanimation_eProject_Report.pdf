@@ -1,0 +1,746 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 4582 >>
+stream
+BT /F1 9 Tf 45 760 Td (ePROJECT REPORT) Tj ET
+BT /F1 9 Tf 45 748 Td (FANIMATION) Tj ET
+BT /F1 9 Tf 45 736 Td (A React-Based Product Catalogue and Interactive Fan Storefront) Tj ET
+BT /F1 9 Tf 45 724 Td (Prepared as a technical report based on the submitted source code. All) Tj ET
+BT /F1 9 Tf 45 712 Td (statements about implementation reflect the repository inspected for this) Tj ET
+BT /F1 9 Tf 45 700 Td (report.) Tj ET
+BT /F2 15 Tf 45 688 Td (Table of Contents) Tj ET
+BT /F1 9 Tf 45 663 Td (This Word document contains Heading 1-3 styles and a dynamic Table of Contents) Tj ET
+BT /F1 9 Tf 45 651 Td (field. In Microsoft Word, right-click the table of contents and choose ?Update) Tj ET
+BT /F1 9 Tf 45 639 Td (Field? before final submission to refresh page numbers after any edits.) Tj ET
+BT /F1 8 Tf 45 627 Td (Report structure: Acknowledgements; eProject Synopsis; eProject Analysis;) Tj ET
+BT /F1 8 Tf 45 617 Td (eProject Design; diagrams; proposed database design; screenshot plan; source-) Tj ET
+BT /F1 8 Tf 45 607 Td (code commentary; user guide; developer guide; modules; testing; conclusion.) Tj ET
+BT /F2 15 Tf 45 597 Td (Acknowledgements) Tj ET
+BT /F1 9 Tf 45 572 Td (I acknowledge the guidance of my lecturers, supervisors, and peers whose) Tj ET
+BT /F1 9 Tf 45 560 Td (teaching and feedback supported the completion of this eProject. I also) Tj ET
+BT /F1 9 Tf 45 548 Td (acknowledge the tools and resources used in developing the Fanimation) Tj ET
+BT /F1 9 Tf 45 536 Td (interface. This report has been prepared from the delivered React source code) Tj ET
+BT /F1 9 Tf 45 524 Td (and is intended to present the work accurately and professionally.) Tj ET
+BT /F2 15 Tf 45 512 Td (1. eProject Synopsis) Tj ET
+BT /F2 12 Tf 45 487 Td (1.1 Introduction) Tj ET
+BT /F1 9 Tf 45 471 Td (Fanimation is a responsive single-page web application that presents a) Tj ET
+BT /F1 9 Tf 45 459 Td (catalogue of fan products and related accessories. It combines a marketing-) Tj ET
+BT /F1 9 Tf 45 447 Td (style landing page with interactive product discovery, product-detail) Tj ET
+BT /F1 9 Tf 45 435 Td (overlays, favourites, a client-side cart, a gallery, offers, frequently asked) Tj ET
+BT /F1 9 Tf 45 423 Td (questions, and a validated contact form.) Tj ET
+BT /F2 12 Tf 45 411 Td (1.2 Background) Tj ET
+BT /F1 9 Tf 45 395 Td (The implementation models a consumer-facing fan catalogue. Product records are) Tj ET
+BT /F1 9 Tf 45 383 Td (held locally in JavaScript and rendered in React. The interface communicates) Tj ET
+BT /F1 9 Tf 45 371 Td (pricing in Nigerian naira \(N\) and includes catalogue categories for ceiling,) Tj ET
+BT /F1 9 Tf 45 359 Td (pedestal, wall and exhaust fans, plus accessories.) Tj ET
+BT /F2 12 Tf 45 347 Td (1.3 Purpose and Objectives) Tj ET
+BT /F1 9 Tf 45 331 Td (Present a visually organised fan product catalogue.) Tj ET
+BT /F1 9 Tf 45 319 Td (Allow users to filter and sort the available products.) Tj ET
+BT /F1 9 Tf 45 307 Td (Allow users to view richer product details, mark favourites, and manage a) Tj ET
+BT /F1 9 Tf 45 295 Td (temporary cart.) Tj ET
+BT /F1 9 Tf 45 283 Td (Provide supporting promotional, gallery, company, FAQ and contact sections in) Tj ET
+BT /F1 9 Tf 45 271 Td (one scrollable experience.) Tj ET
+BT /F1 9 Tf 45 259 Td (Demonstrate a responsive React component architecture using Vite, Bootstrap) Tj ET
+BT /F1 9 Tf 45 247 Td (and custom CSS.) Tj ET
+BT /F2 12 Tf 45 235 Td (1.4 Scope) Tj ET
+BT /F1 9 Tf 45 219 Td (The delivered application is front-end only. It renders 15 local product) Tj ET
+BT /F1 9 Tf 45 207 Td (records and images. It does not include authentication, a backend API,) Tj ET
+BT /F1 9 Tf 45 195 Td (database, search behaviour, payment execution, checkout processing, order) Tj ET
+BT /F1 9 Tf 45 183 Td (persistence, or message delivery. The visible Checkout button has no click) Tj ET
+BT /F1 9 Tf 45 171 Td (handler; the contact form validates input and shows a local success state) Tj ET
+BT /F1 9 Tf 45 159 Td (only.) Tj ET
+BT /F2 12 Tf 45 147 Td (1.5 Technologies Used) Tj ET
+BT /F2 12 Tf 45 131 Td (1.6 Expected Outcome) Tj ET
+BT /F1 9 Tf 45 115 Td (A visitor can browse a responsive Fanimation storefront, narrow its local) Tj ET
+BT /F1 9 Tf 45 103 Td (product catalogue, inspect products in a modal, manage a temporary cart and) Tj ET
+BT /F1 9 Tf 45 91 Td (use the contact-form interaction. These outcomes are implemented as client-) Tj ET
+BT /F1 9 Tf 45 79 Td (side interactions only.) Tj ET
+BT /F2 15 Tf 45 67 Td (2. eProject Analysis) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 1) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 25 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4898 >>
+stream
+BT /F2 12 Tf 45 760 Td (2.1 Existing System) Tj ET
+BT /F1 9 Tf 45 744 Td (No separate legacy system is present in the uploaded repository. The delivered) Tj ET
+BT /F1 9 Tf 45 732 Td (application itself is the system available for analysis. It behaves as a) Tj ET
+BT /F1 9 Tf 45 720 Td (static, front-end catalogue and promotional site.) Tj ET
+BT /F2 12 Tf 45 708 Td (2.2 Problems Addressed) Tj ET
+BT /F1 9 Tf 45 692 Td (The interface addresses the practical discovery problem of presenting multiple) Tj ET
+BT /F1 9 Tf 45 680 Td (fan types in a single catalogue. Category, type, colour, brand, price ceiling) Tj ET
+BT /F1 9 Tf 45 668 Td (and sort controls reduce the effort required to browse the 15 available) Tj ET
+BT /F1 9 Tf 45 656 Td (records.) Tj ET
+BT /F2 12 Tf 45 644 Td (2.3 Proposed System) Tj ET
+BT /F1 9 Tf 45 628 Td (The proposed and implemented system is a React single-page application. It) Tj ET
+BT /F1 9 Tf 45 616 Td (centralises catalogue information in src/data/products.js, composes the page) Tj ET
+BT /F1 9 Tf 45 604 Td (from reusable modules, and keeps transient user interactions in React state.) Tj ET
+BT /F2 12 Tf 45 592 Td (2.4 Functional Requirements - Verified) Tj ET
+BT /F2 12 Tf 45 576 Td (2.5 Non-functional Requirements - Observed) Tj ET
+BT /F1 9 Tf 45 560 Td (Responsive layout through Bootstrap breakpoints and local media queries.) Tj ET
+BT /F1 9 Tf 45 548 Td (Smooth anchor scrolling with scroll-margin for section targets.) Tj ET
+BT /F1 9 Tf 45 536 Td (Basic accessibility measures: semantic sections, labels, alt text and aria-) Tj ET
+BT /F1 9 Tf 45 524 Td (labels on important controls.) Tj ET
+BT /F1 9 Tf 45 512 Td (Fast local data access because the catalogue and assets are bundled with the) Tj ET
+BT /F1 9 Tf 45 500 Td (client.) Tj ET
+BT /F1 9 Tf 45 488 Td (Maintainability through independently styled component folders.) Tj ET
+BT /F2 12 Tf 45 476 Td (2.6 Assumptions and Constraints) Tj ET
+BT /F1 9 Tf 45 460 Td (Catalogue prices are comma-formatted strings and are converted for comparison) Tj ET
+BT /F1 9 Tf 45 448 Td (and calculation. Delivery, warranty, showroom and company statements are) Tj ET
+BT /F1 9 Tf 45 436 Td (presentation content, not integrated business services. LocalStorage stores a) Tj ET
+BT /F1 9 Tf 45 424 Td (browser-local visitor counter; SessionStorage prevents incrementing it more) Tj ET
+BT /F1 9 Tf 45 412 Td (than once in the current browser session. No persistence is provided for) Tj ET
+BT /F1 9 Tf 45 400 Td (favourites or cart data.) Tj ET
+BT /F2 12 Tf 45 388 Td (2.7 Feasibility Analysis) Tj ET
+BT /F2 15 Tf 45 372 Td (3. eProject Design) Tj ET
+BT /F2 12 Tf 45 347 Td (3.1 Overall System Architecture) Tj ET
+BT /F1 9 Tf 45 331 Td (The browser loads index.html, which mounts main.jsx into #root. main.jsx) Tj ET
+BT /F1 9 Tf 45 319 Td (imports Bootstrap and global CSS, then renders App. App composes the site) Tj ET
+BT /F1 9 Tf 45 307 Td (sections and owns cross-section favourite, cart and cart-drawer state.) Tj ET
+BT /F1 9 Tf 45 295 Td (ProductSection owns the filter state and derives filtered results from) Tj ET
+BT /F1 9 Tf 45 283 Td (allProducts.) Tj ET
+BT /F2 10 Tf 45 271 Td (Figure 1. Component and data architecture) Tj ET
+BT /F1 9 Tf 45 257 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 245 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 233 Td (flowchart TD   Browser --> index[index.html] --> main[src/main.jsx] --> App) Tj ET
+BT /F1 9 Tf 45 221 Td (App --> Navbar & Ticker & Hero & Features & ProductSection & CartDrawer &) Tj ET
+BT /F1 9 Tf 45 209 Td (Gallery & Offers & About & FAQ & Contact & Footer   ProductSection -->) Tj ET
+BT /F1 9 Tf 45 197 Td (ProductFilter & ProductGrid   ProductGrid --> ProductCard --> ProductModal) Tj ET
+BT /F1 9 Tf 45 185 Td (Products[\(products.js: local array\)] --> ProductSection   Products --> Gallery) Tj ET
+BT /F1 9 Tf 45 173 Td (Products --> Offers   AppState[\(favourites/cart state\)] --> Navbar   AppState) Tj ET
+BT /F1 9 Tf 45 161 Td (--> ProductSection   AppState --> CartDrawer) Tj ET
+BT /F2 12 Tf 45 149 Td (3.2 Folder Structure) Tj ET
+BT /F1 9 Tf 45 133 Td (src/   assets/images/                 hero, logo and 15 product photos) Tj ET
+BT /F1 9 Tf 45 121 Td (components/                    14 feature/component folders) Tj ET
+BT /F1 9 Tf 45 109 Td (ProductSection/ProductGrid/ProductCard   data/products.js) Tj ET
+BT /F1 9 Tf 45 97 Td (catalogue, allProducts and toNumber   styles/global.css              global) Tj ET
+BT /F1 9 Tf 45 85 Td (scroll/focus styling   App.jsx                        application composition) Tj ET
+BT /F1 9 Tf 45 73 Td (and shared state   main.jsx                       React bootstrap and) Tj ET
+BT /F1 9 Tf 45 61 Td (Bootstrap imports public/                          favicon.svg and icons.svg) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 2) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 25 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 5044 >>
+stream
+BT /F1 9 Tf 45 760 Td (package.json                     scripts and dependencies vite.config.js) Tj ET
+BT /F1 9 Tf 45 748 Td (React plugin configuration) Tj ET
+BT /F2 12 Tf 45 736 Td (3.3 Navigation and Application Flow) Tj ET
+BT /F1 9 Tf 45 720 Td (Navbar and footer links use in-page anchors. Product-category links dispatch a) Tj ET
+BT /F1 9 Tf 45 708 Td (CustomEvent named fanimation:filter-category; ProductSection listens for it,) Tj ET
+BT /F1 9 Tf 45 696 Td (updates category filter state and the page scrolls to the products section.) Tj ET
+BT /F1 9 Tf 45 684 Td (The Hero button scrolls to products directly. On mobile, Navbar displays an) Tj ET
+BT /F1 9 Tf 45 672 Td (overlay panel controlled by isMenuOpen.) Tj ET
+BT /F2 12 Tf 45 660 Td (3.4 State Management) Tj ET
+BT /F2 12 Tf 45 644 Td (3.5 Data Flow and Filtering) Tj ET
+BT /F1 9 Tf 45 628 Td (allProducts is the authoritative current catalogue. ProductSection derives the) Tj ET
+BT /F1 9 Tf 45 616 Td (maximum price and option lists with useMemo. It filters by exact) Tj ET
+BT /F1 9 Tf 45 604 Td (category/type/colour/brand match and numeric price ceiling. It then sorts a) Tj ET
+BT /F1 9 Tf 45 592 Td (copied result set. Changing category clears a previously selected type because) Tj ET
+BT /F1 9 Tf 45 580 Td (that type may no longer be valid.) Tj ET
+BT /F2 12 Tf 45 568 Td (3.6 Styling and Responsive Design) Tj ET
+BT /F1 9 Tf 45 552 Td (Bootstrap supplies the container/row/column grid and responsive breakpoints.) Tj ET
+BT /F1 9 Tf 45 540 Td (Each module imports its own CSS file. Gallery changes from four columns to) Tj ET
+BT /F1 9 Tf 45 528 Td (three below 992px and two below 576px. Navbar switches to a mobile overlay at) Tj ET
+BT /F1 9 Tf 45 516 Td (991px and below. About stats stack at 576px. Modal padding/image size reduce) Tj ET
+BT /F1 9 Tf 45 504 Td (at 576px. Product columns use col-lg-4 col-md-6, producing three columns on) Tj ET
+BT /F1 9 Tf 45 492 Td (large screens and two on medium screens before stacking on small screens.) Tj ET
+BT /F2 15 Tf 45 480 Td (4. Data Flow Diagrams, Flowcharts and Process Diagrams) Tj ET
+BT /F2 10 Tf 45 455 Td (4.1 Context Diagram) Tj ET
+BT /F1 9 Tf 45 441 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 429 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 417 Td (flowchart LR   U[Visitor] -->|browse, filter, favourite, add to cart, submit) Tj ET
+BT /F1 9 Tf 45 405 Td (contact form| S[Fanimation SPA]   S -->|catalogue, UI feedback, local) Tj ET
+BT /F1 9 Tf 45 393 Td (cart/favourite state| U   S -->|read/write visitor count| LS[\(Browser) Tj ET
+BT /F1 9 Tf 45 381 Td (localStorage/sessionStorage\)]   D[Bundled product data/assets] --> S   note[No) Tj ET
+BT /F1 9 Tf 45 369 Td (API, database, email or payment gateway is connected] -.-> S) Tj ET
+BT /F2 10 Tf 45 357 Td (4.2 Level 1 DFD) Tj ET
+BT /F1 9 Tf 45 343 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 331 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 319 Td (flowchart TD  U[Visitor] --> N[Navigation process]  U --> P[Catalogue/filter) Tj ET
+BT /F1 9 Tf 45 307 Td (process]  U --> C[Cart/favourite process]  U --> F[Contact validation process]) Tj ET
+BT /F1 9 Tf 45 295 Td (N --> V[Rendered sections]  P <--> D[\(products.js\)]  P --> V  C --> M[\(React) Tj ET
+BT /F1 9 Tf 45 283 Td (App state\)] --> V  F --> V  N <--> L[\(localStorage/sessionStorage visitor) Tj ET
+BT /F1 9 Tf 45 271 Td (counter\)]) Tj ET
+BT /F2 10 Tf 45 259 Td (4.3 Level 2 DFD - Catalogue filtering) Tj ET
+BT /F1 9 Tf 45 245 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 233 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 221 Td (flowchart TD  I[Filter input or category event] --> S[Update filters state]  S) Tj ET
+BT /F1 9 Tf 45 209 Td (--> T{Category changed?}  T -->|yes| R[Reset type]  T -->|no| X[Keep type]  R) Tj ET
+BT /F1 9 Tf 45 197 Td (--> F[Filter allProducts]  X --> F  F --> G[Category/type/colour/brand/price) Tj ET
+BT /F1 9 Tf 45 185 Td (tests]  G --> O[Sort selected result]  O --> K[Render ProductGrid or no-) Tj ET
+BT /F1 9 Tf 45 173 Td (results message]) Tj ET
+BT /F2 10 Tf 45 161 Td (4.4 Flowchart - Application startup) Tj ET
+BT /F1 9 Tf 45 147 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 135 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 123 Td (flowchart TD  A[Open site] --> B[index.html loads]  B --> C[main.jsx imports) Tj ET
+BT /F1 9 Tf 45 111 Td (Bootstrap/global CSS]  C --> D[createRoot renders App in StrictMode]  D -->) Tj ET
+BT /F1 9 Tf 45 99 Td (E[Sections and local catalogue render]  E --> F[Navbar visitor effect and) Tj ET
+BT /F1 9 Tf 45 87 Td (ticker timer begin]) Tj ET
+BT /F2 10 Tf 45 75 Td (4.5 Flowchart - Homepage navigation) Tj ET
+BT /F1 9 Tf 45 61 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 3) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 25 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4998 >>
+stream
+BT /F1 9 Tf 45 760 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 748 Td (flowchart TD  A[Click nav/footer link] --> B{Category link?}  B -->|yes|) Tj ET
+BT /F1 9 Tf 45 736 Td (C[Dispatch fanimation:filter-category]  B -->|no| D[Find target section]  C) Tj ET
+BT /F1 9 Tf 45 724 Td (--> D --> E[Smooth scroll]  E --> F[Mobile panel closes when used]) Tj ET
+BT /F2 10 Tf 45 712 Td (4.6 Flowchart - Product browsing and filtering) Tj ET
+BT /F1 9 Tf 45 698 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 686 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 674 Td (flowchart TD  A[Open products] --> B[Show all 15 records sorted by rating]  B) Tj ET
+BT /F1 9 Tf 45 662 Td (--> C[Choose filter or sort]  C --> D[Update filters]  D --> E[Derive matching) Tj ET
+BT /F1 9 Tf 45 650 Td (records]  E --> F{Any match?}  F -->|yes| G[Render cards]  F -->|no| H[Show) Tj ET
+BT /F1 9 Tf 45 638 Td (adjustment message]) Tj ET
+BT /F2 10 Tf 45 626 Td (4.7 Flowchart - Product details modal) Tj ET
+BT /F1 9 Tf 45 612 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 600 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 588 Td (flowchart TD  A[Click View Details] --> B[showModal=true]  B --> C[Render) Tj ET
+BT /F1 9 Tf 45 576 Td (modal and lock body scroll]  C --> D{Action}  D -->|Add to Cart| E[App) Tj ET
+BT /F1 9 Tf 45 564 Td (increments/adds item and opens drawer]  D -->|Favourite| F[Toggle product ID]) Tj ET
+BT /F1 9 Tf 45 552 Td (D -->|Close/backdrop/Escape| G[Unmount modal and restore scroll]) Tj ET
+BT /F2 10 Tf 45 540 Td (4.8 Flowchart - Contact process) Tj ET
+BT /F1 9 Tf 45 526 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 514 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 502 Td (flowchart TD  A[Enter form fields] --> B[Submit]  B --> C[Prevent default]  C) Tj ET
+BT /F1 9 Tf 45 490 Td (--> D[Validate name, email and message]  D --> E{Errors?}  E -->|yes|) Tj ET
+BT /F1 9 Tf 45 478 Td (F[Display inline errors]  E -->|no| G[Show success message and clear form]  G) Tj ET
+BT /F1 9 Tf 45 466 Td (--> H[No transmission occurs in current implementation]) Tj ET
+BT /F2 10 Tf 45 454 Td (4.9 Overall user flow) Tj ET
+BT /F1 9 Tf 45 440 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 428 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 416 Td (flowchart LR  Start --> Home --> Products --> Details --> Cart  Home -->) Tj ET
+BT /F1 9 Tf 45 404 Td (Gallery  Home --> Offers --> Products  Home --> FAQ  Home --> Contact  Cart) Tj ET
+BT /F1 9 Tf 45 392 Td (--> End[Checkout button visible; no checkout workflow implemented]) Tj ET
+BT /F2 10 Tf 45 380 Td (4.10 Process - Product viewing) Tj ET
+BT /F1 9 Tf 45 366 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 354 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 342 Td (flowchart LR  Catalogue[products.js] --> Grid[ProductGrid] -->) Tj ET
+BT /F1 9 Tf 45 330 Td (Card[ProductCard] --> Modal[ProductModal]  Modal --> Info[Image, rating,) Tj ET
+BT /F1 9 Tf 45 318 Td (description, specs, price and perks]) Tj ET
+BT /F2 10 Tf 45 306 Td (4.11 Process - Search/filtering) Tj ET
+BT /F1 9 Tf 45 292 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 280 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 268 Td (flowchart LR  Note[No text-search input/action is implemented] -->) Tj ET
+BT /F1 9 Tf 45 256 Td (Filters[Category/type/price/colour/brand controls] --> Results[Filtered and) Tj ET
+BT /F1 9 Tf 45 244 Td (sorted cards]) Tj ET
+BT /F2 10 Tf 45 232 Td (4.12 Process - Modal, navigation, contact and complete workflow) Tj ET
+BT /F1 9 Tf 45 218 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 206 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 194 Td (flowchart TD  Navigation --> Catalogue --> Modal --> Cart  Navigation -->) Tj ET
+BT /F1 9 Tf 45 182 Td (Gallery --> Lightbox  Navigation --> Contact --> Validation --> Confirmation) Tj ET
+BT /F1 9 Tf 45 170 Td (Cart --> LocalOnly[Temporary browser state only]) Tj ET
+BT /F2 15 Tf 45 158 Td (5. Database Design / Structure) Tj ET
+BT /F2 12 Tf 45 133 Td (5.1 Current versus Proposed Design) Tj ET
+BT /F1 9 Tf 45 117 Td (Current implementation: no database exists. The catalogue is a static) Tj ET
+BT /F1 9 Tf 45 105 Td (JavaScript array; reviews, ratings and prices are display fields in that) Tj ET
+BT /F1 9 Tf 45 93 Td (array. Browser storage is used only for the visitor counter and session) Tj ET
+BT /F1 9 Tf 45 81 Td (marker. The following is a proposed normalized production design, clearly) Tj ET
+BT /F1 9 Tf 45 69 Td (separate from the delivered implementation.) Tj ET
+BT /F2 10 Tf 45 57 Td (5.2 Proposed production ER Diagram) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 4) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 25 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 5177 >>
+stream
+BT /F1 9 Tf 45 760 Td (Mermaid source - render in a Mermaid-capable editor if a graphical figure is) Tj ET
+BT /F1 9 Tf 45 748 Td (required by the centre.) Tj ET
+BT /F1 9 Tf 45 736 Td (erDiagram  CATEGORY ||--o{ PRODUCT : classifies  PRODUCT ||--o{ REVIEW :) Tj ET
+BT /F1 9 Tf 45 724 Td (receives  USER ||--o{ REVIEW : writes  USER ||--o{ WISHLIST : owns  PRODUCT) Tj ET
+BT /F1 9 Tf 45 712 Td (||--o{ WISHLIST : saved  USER ||--o{ ORDER : places  ORDER ||--|{ ORDER_ITEM :) Tj ET
+BT /F1 9 Tf 45 700 Td (contains  PRODUCT ||--o{ ORDER_ITEM : ordered  USER ||--o{ CONTACT_MESSAGE :) Tj ET
+BT /F1 9 Tf 45 688 Td (sends  CATEGORY { int category_id PK  string name UK  }  PRODUCT { int) Tj ET
+BT /F1 9 Tf 45 676 Td (product_id PK  int category_id FK  string name  decimal price  decimal) Tj ET
+BT /F1 9 Tf 45 664 Td (old_price  decimal rating  int review_count  }  USER { int user_id PK  string) Tj ET
+BT /F1 9 Tf 45 652 Td (email UK  string full_name  }  REVIEW { int review_id PK  int product_id FK) Tj ET
+BT /F1 9 Tf 45 640 Td (int user_id FK  tinyint rating  text comment  }  WISHLIST { int wishlist_id PK) Tj ET
+BT /F1 9 Tf 45 628 Td (int user_id FK  int product_id FK  }  ORDER { int order_id PK  int user_id FK) Tj ET
+BT /F1 9 Tf 45 616 Td (decimal subtotal  string status  }  ORDER_ITEM { int order_item_id PK  int) Tj ET
+BT /F1 9 Tf 45 604 Td (order_id FK  int product_id FK  int quantity  decimal unit_price  }) Tj ET
+BT /F1 9 Tf 45 592 Td (CONTACT_MESSAGE { int message_id PK  int user_id FK  string name  string email) Tj ET
+BT /F1 9 Tf 45 580 Td (text message  }) Tj ET
+BT /F2 12 Tf 45 568 Td (5.3 Proposed Table Structures and Constraints) Tj ET
+BT /F2 12 Tf 45 552 Td (5.4 Normalization) Tj ET
+BT /F1 9 Tf 45 536 Td (The proposed schema is in third normal form: categories are separated from) Tj ET
+BT /F1 9 Tf 45 524 Td (products; user identity is separated from reviews, wishlist rows and orders;) Tj ET
+BT /F1 9 Tf 45 512 Td (and order lines hold the repeatable product/quantity relationship. Prices in) Tj ET
+BT /F1 9 Tf 45 500 Td (order_items intentionally preserve transactional history rather than relying) Tj ET
+BT /F1 9 Tf 45 488 Td (on a future products.price value.) Tj ET
+BT /F2 15 Tf 45 476 Td (6. Screenshot Placeholders) Tj ET
+BT /F1 9 Tf 45 451 Td (The following figure placeholders identify the recommended screenshots for a) Tj ET
+BT /F1 9 Tf 45 439 Td (final submission. Capture them from the running application at the stated) Tj ET
+BT /F1 9 Tf 45 427 Td (viewport before inserting. The source repository contains no submitted) Tj ET
+BT /F1 9 Tf 45 415 Td (screenshots.) Tj ET
+BT /F1 8 Tf 45 403 Td (Figure 1. Homepage and Hero Banner. Top bar, navigation, hero message and) Tj ET
+BT /F1 8 Tf 45 393 Td (Explore Collection call to action.) Tj ET
+BT /F1 8 Tf 45 383 Td (Figure 2. Navigation and Mobile Menu. Desktop navigation plus the overlay) Tj ET
+BT /F1 8 Tf 45 373 Td (panel at a narrow viewport.) Tj ET
+BT /F1 8 Tf 45 363 Td (Figure 3. Product Catalogue. Filter sidebar, product cards, product count and) Tj ET
+BT /F1 8 Tf 45 353 Td (benefit panel.) Tj ET
+BT /F1 8 Tf 45 343 Td (Figure 4. Product Filters. Category, type, price slider, colour chips, brand) Tj ET
+BT /F1 8 Tf 45 333 Td (and clear action.) Tj ET
+BT /F1 8 Tf 45 323 Td (Figure 5. Product Details Modal. Product image, specifications, rating, add-) Tj ET
+BT /F1 8 Tf 45 313 Td (to-cart and wishlist actions.) Tj ET
+BT /F1 8 Tf 45 303 Td (Figure 6. Cart Drawer. Temporary cart line item, quantity controls and) Tj ET
+BT /F1 8 Tf 45 293 Td (subtotal.) Tj ET
+BT /F1 8 Tf 45 283 Td (Figure 7. Gallery. Eight-image responsive gallery and selected-image lightbox.) Tj ET
+BT /F1 8 Tf 45 273 Td (Figure 8. Offers. Products having oldPrice with calculated percentage) Tj ET
+BT /F1 8 Tf 45 263 Td (discount.) Tj ET
+BT /F1 8 Tf 45 253 Td (Figure 9. About and FAQ. Company text/stat cards and Bootstrap accordion.) Tj ET
+BT /F1 8 Tf 45 243 Td (Figure 10. Contact and Footer. Contact details, validated form, confirmation) Tj ET
+BT /F1 8 Tf 45 233 Td (state and footer links.) Tj ET
+BT /F1 8 Tf 45 223 Td (Figure 11. Tablet View. Bootstrap medium-width arrangement with two product) Tj ET
+BT /F1 8 Tf 45 213 Td (columns.) Tj ET
+BT /F1 8 Tf 45 203 Td (Figure 12. Mobile View. Small-screen stacked product layout and mobile) Tj ET
+BT /F1 8 Tf 45 193 Td (navigation.) Tj ET
+BT /F2 15 Tf 45 183 Td (7. Source Code with Comments) Tj ET
+BT /F2 12 Tf 45 158 Td (7.1 Commenting Approach) Tj ET
+BT /F1 9 Tf 45 142 Td (The reviewed source already includes focused comments around non-obvious) Tj ET
+BT /F1 9 Tf 45 130 Td (behaviour, notably price conversion, category-event communication, modal) Tj ET
+BT /F1 9 Tf 45 118 Td (lifecycle handling, gallery asset reuse and contact-form limitations. The code) Tj ET
+BT /F1 9 Tf 45 106 Td (is not over-commented. The snippets below explain the important logic without) Tj ET
+BT /F1 9 Tf 45 94 Td (rewriting the full source.) Tj ET
+BT /F2 12 Tf 45 82 Td (7.2 Shared Cart State - App.jsx) Tj ET
+BT /F1 9 Tf 45 66 Td (const handleAddToCart = \(product\) => {   const normalizedProduct = {) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 5) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 25 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 5427 >>
+stream
+BT /F1 9 Tf 45 760 Td (...product,     name: product?.name || product?.title || "Product",     price:) Tj ET
+BT /F1 9 Tf 45 748 Td (toNumber\(product?.price ?? product?.cost ?? product?.amount ?? 0\),   };) Tj ET
+BT /F1 9 Tf 45 736 Td (setCartItems\(\(prev\) => {     const existing = prev.find\(\(item\) => item.id ===) Tj ET
+BT /F1 9 Tf 45 724 Td (normalizedProduct.id\);     if \(existing\) return prev.map\(\(item\) =>) Tj ET
+BT /F1 9 Tf 45 712 Td (item.id === normalizedProduct.id         ? { ...item, quantity: item.quantity) Tj ET
+BT /F1 9 Tf 45 700 Td (+ 1 } : item\);     return [...prev, { ...normalizedProduct, quantity: 1 }];) Tj ET
+BT /F1 9 Tf 45 688 Td (}\);   setIsCartOpen\(true\); };) Tj ET
+BT /F1 9 Tf 45 676 Td (This function normalizes flexible product-like inputs, increments an existing) Tj ET
+BT /F1 9 Tf 45 664 Td (cart line or appends a new one, then opens the drawer. It is held in App so) Tj ET
+BT /F1 9 Tf 45 652 Td (Navbar, ProductSection and CartDrawer can share the same state.) Tj ET
+BT /F2 12 Tf 45 640 Td (7.3 Derived Filtering - ProductSection.jsx) Tj ET
+BT /F1 9 Tf 45 624 Td (let result = allProducts.filter\(\(product\) => {   if \(filters.category &&) Tj ET
+BT /F1 9 Tf 45 612 Td (product.category !== filters.category\) return false;   if \(filters.type &&) Tj ET
+BT /F1 9 Tf 45 600 Td (product.type !== filters.type\) return false;   if \(filters.color &&) Tj ET
+BT /F1 9 Tf 45 588 Td (product.color !== filters.color\) return false;   if \(filters.brand &&) Tj ET
+BT /F1 9 Tf 45 576 Td (product.brand !== filters.brand\) return false;   if \(filters.price &&) Tj ET
+BT /F1 9 Tf 45 564 Td (toNumber\(product.price\) > Number\(filters.price\)\) return false;   return true;) Tj ET
+BT /F1 9 Tf 45 552 Td (}\); // result is then copied and sorted by rating, id or numeric price.) Tj ET
+BT /F1 9 Tf 45 540 Td (The predicate only applies a criterion when its filter value is present.) Tj ET
+BT /F1 9 Tf 45 528 Td (toNumber removes commas from stored price strings before numeric comparison.) Tj ET
+BT /F2 12 Tf 45 516 Td (7.4 Modal Lifecycle - ProductModal.jsx) Tj ET
+BT /F1 9 Tf 45 500 Td (useEffect\(\(\) => {   const handleKeyDown = \(e\) => { if \(e.key === "Escape"\)) Tj ET
+BT /F1 9 Tf 45 488 Td (onClose\(\); };   document.addEventListener\("keydown", handleKeyDown\);) Tj ET
+BT /F1 9 Tf 45 476 Td (document.body.style.overflow = "hidden";   return \(\) => {) Tj ET
+BT /F1 9 Tf 45 464 Td (document.removeEventListener\("keydown", handleKeyDown\);) Tj ET
+BT /F1 9 Tf 45 452 Td (document.body.style.overflow = "";   }; }, [onClose]\);) Tj ET
+BT /F1 9 Tf 45 440 Td (When mounted, the modal listens for Escape and disables page scrolling. Its) Tj ET
+BT /F1 9 Tf 45 428 Td (cleanup restores both; backdrop clicks call onClose while clicks within the) Tj ET
+BT /F1 9 Tf 45 416 Td (modal stop propagation.) Tj ET
+BT /F2 12 Tf 45 404 Td (7.5 Contact Validation - Contact.jsx) Tj ET
+BT /F1 9 Tf 45 388 Td (const validate = \(values\) => {   const nextErrors = {};   if) Tj ET
+BT /F1 9 Tf 45 376 Td (\(!values.name.trim\(\)\) nextErrors.name = "Please enter your name.";   if) Tj ET
+BT /F1 9 Tf 45 364 Td (\(!values.email.trim\(\)\) nextErrors.email = "Please enter your email.";   else) Tj ET
+BT /F1 9 Tf 45 352 Td (if \(!/^\\S+@\\S+\\.\\S+$/.test\(values.email\)\)     nextErrors.email = "Please enter) Tj ET
+BT /F1 9 Tf 45 340 Td (a valid email address.";   if \(!values.message.trim\(\)\) nextErrors.message =) Tj ET
+BT /F1 9 Tf 45 328 Td ("Please enter a message.";   return nextErrors; };) Tj ET
+BT /F1 9 Tf 45 316 Td (The validation runs entirely in the browser. A valid submission clears the) Tj ET
+BT /F1 9 Tf 45 304 Td (fields and displays a confirmation but does not send or store a message.) Tj ET
+BT /F2 15 Tf 45 292 Td (8. User Guide) Tj ET
+BT /F2 12 Tf 45 267 Td (8.1 Introduction and System Requirements) Tj ET
+BT /F1 9 Tf 45 251 Td (Fanimation is used through a modern web browser with JavaScript enabled. No) Tj ET
+BT /F1 9 Tf 45 239 Td (user account is required for the current demonstrator. Internet access is only) Tj ET
+BT /F1 9 Tf 45 227 Td (needed when the app is deployed or served remotely; the submitted source can) Tj ET
+BT /F1 9 Tf 45 215 Td (run locally with Node.js and npm.) Tj ET
+BT /F2 12 Tf 45 203 Td (8.2 Starting the Application) Tj ET
+BT /F1 9 Tf 45 187 Td (A non-technical user normally opens the deployed site in a browser. For a) Tj ET
+BT /F1 9 Tf 45 175 Td (local demonstration, a developer starts the Vite development server; then the) Tj ET
+BT /F1 9 Tf 45 163 Td (user opens the displayed local address.) Tj ET
+BT /F2 12 Tf 45 151 Td (8.3 Using the Homepage and Navigation) Tj ET
+BT /F1 9 Tf 45 135 Td (Use the navigation bar or footer links to jump to a section. Choose a product-) Tj ET
+BT /F1 9 Tf 45 123 Td (category link such as CEILING FANS to move to the catalogue with that category) Tj ET
+BT /F1 9 Tf 45 111 Td (already selected. On a narrow screen, use the hamburger button to open the) Tj ET
+BT /F1 9 Tf 45 99 Td (navigation panel. The Explore Collection button moves to products.) Tj ET
+BT /F2 12 Tf 45 87 Td (8.4 Browsing, Filtering and Sorting Products) Tj ET
+BT /F1 9 Tf 45 71 Td (At Products, use Category, Type, Price Range, Color and Brand controls. Colour) Tj ET
+BT /F1 9 Tf 45 59 Td (circles toggle a colour selection. Choose a Sort By option to change the) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 6) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 25 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 5112 >>
+stream
+BT /F1 9 Tf 45 760 Td (order. Use Clear Filters to return to all categories, all) Tj ET
+BT /F1 9 Tf 45 748 Td (types/colours/brands, the maximum price and Popular sort. If nothing matches,) Tj ET
+BT /F1 9 Tf 45 736 Td (the page says to adjust or clear filters.) Tj ET
+BT /F2 12 Tf 45 724 Td (8.5 Product Details, Favourites and Cart) Tj ET
+BT /F1 9 Tf 45 708 Td (Select View Details to open a product modal. Read the specifications and) Tj ET
+BT /F1 9 Tf 45 696 Td (price, then choose Add to Cart or the heart button. Close using the X, by) Tj ET
+BT /F1 9 Tf 45 684 Td (clicking outside the panel, or pressing Escape. The cart icon opens the cart) Tj ET
+BT /F1 9 Tf 45 672 Td (drawer. Use minus/plus buttons to change quantities; reducing a line from one) Tj ET
+BT /F1 9 Tf 45 660 Td (to zero removes it. Checkout is presently a visual button only and does not) Tj ET
+BT /F1 9 Tf 45 648 Td (complete a purchase.) Tj ET
+BT /F2 12 Tf 45 636 Td (8.6 Gallery, Offers, FAQs and Contact) Tj ET
+BT /F1 9 Tf 45 620 Td (Select a gallery image to enlarge it; click the overlay to close. Offers show) Tj ET
+BT /F1 9 Tf 45 608 Td (the items whose local data has an old price. Expand FAQ questions to read) Tj ET
+BT /F1 9 Tf 45 596 Td (their answers. In Contact, enter a name, a syntactically valid email and a) Tj ET
+BT /F1 9 Tf 45 584 Td (message; submit to receive a local confirmation. The message is not sent to an) Tj ET
+BT /F1 9 Tf 45 572 Td (organisation in the current version.) Tj ET
+BT /F2 12 Tf 45 560 Td (8.7 Troubleshooting and Closing) Tj ET
+BT /F2 15 Tf 45 544 Td (9. Developer Guide) Tj ET
+BT /F2 12 Tf 45 519 Td (9.1 Installation and Commands) Tj ET
+BT /F1 9 Tf 45 503 Td (npm install npm run dev npm run build npm run preview npm run lint) Tj ET
+BT /F1 9 Tf 45 491 Td (package.json defines these scripts. The project uses ESM \("type": "module"\).) Tj ET
+BT /F1 9 Tf 45 479 Td (Vite configuration registers only the React plugin. Bootstrap CSS and bundle) Tj ET
+BT /F1 9 Tf 45 467 Td (JS are imported at startup so the FAQ collapse behaviour is available.) Tj ET
+BT /F2 12 Tf 45 455 Td (9.2 Component Hierarchy and Dependencies) Tj ET
+BT /F1 9 Tf 45 439 Td (App is the composition root. ProductSection depends on ProductFilter and) Tj ET
+BT /F1 9 Tf 45 427 Td (ProductGrid; ProductGrid depends on ProductCard; ProductCard conditionally) Tj ET
+BT /F1 9 Tf 45 415 Td (renders ProductModal. App also imports CartDrawer. Components import their) Tj ET
+BT /F1 9 Tf 45 403 Td (paired CSS and Lucide icons where required. allProducts is read by) Tj ET
+BT /F1 9 Tf 45 391 Td (ProductSection, Gallery and Offers.) Tj ET
+BT /F2 12 Tf 45 379 Td (9.3 Adding or Editing a Product) Tj ET
+BT /F1 9 Tf 45 363 Td (Edit src/data/products.js. Add an object with a unique numeric id, name,) Tj ET
+BT /F1 9 Tf 45 351 Td (category, type, color, brand, comma-formatted price, rating, reviews, badge) Tj ET
+BT /F1 9 Tf 45 339 Td (\(if needed\), imported image and description. oldPrice is optional; when) Tj ET
+BT /F1 9 Tf 45 327 Td (present it causes Offers to include that record. Add a corresponding colour) Tj ET
+BT /F1 9 Tf 45 315 Td (mapping in ProductSection.jsx if a new colour should show as an accurate) Tj ET
+BT /F1 9 Tf 45 303 Td (filter swatch.) Tj ET
+BT /F2 12 Tf 45 291 Td (9.4 Extending Features) Tj ET
+BT /F1 9 Tf 45 275 Td (For persistence, replace local arrays with an API-backed data layer and move) Tj ET
+BT /F1 9 Tf 45 263 Td (cart/favourites to authenticated server state or local storage. For functional) Tj ET
+BT /F1 9 Tf 45 251 Td (contact, submit to a secure endpoint and surface asynchronous failure/success.) Tj ET
+BT /F1 9 Tf 45 239 Td (For checkout, add a verified payment flow, server-side price calculation and) Tj ET
+BT /F1 9 Tf 45 227 Td (order creation. Text search is not implemented and should be designed as a) Tj ET
+BT /F1 9 Tf 45 215 Td (separate filter criterion rather than describing the present filter UI as) Tj ET
+BT /F1 9 Tf 45 203 Td (search.) Tj ET
+BT /F2 12 Tf 45 191 Td (9.5 Styling, Debugging and Maintenance) Tj ET
+BT /F1 9 Tf 45 175 Td (Keep reusable styles within the component folder and reserve global.css for) Tj ET
+BT /F1 9 Tf 45 163 Td (truly global rules. Preserve Bootstrap breakpoint classes where the layout) Tj ET
+BT /F1 9 Tf 45 151 Td (depends on them. Verify modal cleanup, category-event listener cleanup and) Tj ET
+BT /F1 9 Tf 45 139 Td (timer cleanup after changes. Use the Vite console and browser developer tools) Tj ET
+BT /F1 9 Tf 45 127 Td (for runtime issues. Keep product price display and numeric conversion) Tj ET
+BT /F1 9 Tf 45 115 Td (compatible, or migrate prices to numeric values at the API boundary.) Tj ET
+BT /F2 12 Tf 45 103 Td (9.6 Build and Deployment) Tj ET
+BT /F1 9 Tf 45 87 Td (The intended build command is npm run build, which invokes vite build and) Tj ET
+BT /F1 9 Tf 45 75 Td (normally emits a deployable bundle to dist. During this report?s verification,) Tj ET
+BT /F1 9 Tf 45 63 Td (the installed dependency set produced a Vite/Rolldown build error concerning) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 7) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 25 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 5003 >>
+stream
+BT /F1 9 Tf 45 760 Td (an absolute/relative emitted index.html name. Resolve that) Tj ET
+BT /F1 9 Tf 45 748 Td (environment/dependency issue and rerun the build before deploying; do not) Tj ET
+BT /F1 9 Tf 45 736 Td (treat the existing dist directory as proof that the present build passes.) Tj ET
+BT /F2 15 Tf 45 724 Td (10. Module Descriptions) Tj ET
+BT /F2 15 Tf 45 699 Td (11. Testing) Tj ET
+BT /F2 12 Tf 45 674 Td (11.1 Verification Performed) Tj ET
+BT /F1 9 Tf 45 658 Td (The source was inspected module-by-module and the configured build and lint) Tj ET
+BT /F1 9 Tf 45 646 Td (commands were executed in the delivered workspace. No automated test suite is) Tj ET
+BT /F1 9 Tf 45 634 Td (declared in package.json and no test files were found. Therefore, the) Tj ET
+BT /F1 9 Tf 45 622 Td (functional/UI cases below are documented as manual test cases derived from) Tj ET
+BT /F1 9 Tf 45 610 Td (code review and intended browser verification; they are not represented as an) Tj ET
+BT /F1 9 Tf 45 598 Td (invented automated test run.) Tj ET
+BT /F2 12 Tf 45 586 Td (11.2 UI, Responsive, Cross-browser and Performance Testing) Tj ET
+BT /F1 9 Tf 45 570 Td (The project includes responsive rules but no committed device/browser test) Tj ET
+BT /F1 9 Tf 45 558 Td (evidence or performance benchmark. Recommended completion testing is Chrome,) Tj ET
+BT /F1 9 Tf 45 546 Td (Firefox, Edge and Safari at desktop, tablet and mobile widths; validate) Tj ET
+BT /F1 9 Tf 45 534 Td (navigation, FAQ collapse, modal, lightbox, cart and contact states. Production) Tj ET
+BT /F1 9 Tf 45 522 Td (performance should be measured only after the build failure has been resolved.) Tj ET
+BT /F2 12 Tf 45 510 Td (11.3 Bugs and Fixes / Observations) Tj ET
+BT /F1 9 Tf 45 494 Td (Observed build issue: vite build failed with a Rolldown error that an emitted) Tj ET
+BT /F1 9 Tf 45 482 Td (index.html name was treated as an absolute/relative path. Observed lint issue:) Tj ET
+BT /F1 9 Tf 45 470 Td (Navbar sets visitorCount synchronously in an effect, which the configured) Tj ET
+BT /F1 9 Tf 45 458 Td (React Hooks lint rule rejects. These are report findings, not unverified) Tj ET
+BT /F1 9 Tf 45 446 Td (claims that fixes have been applied. A functional limitation is that social) Tj ET
+BT /F1 9 Tf 45 434 Td (anchors use # and do not target external social destinations.) Tj ET
+BT /F2 15 Tf 45 422 Td (12. Conclusion and Future Improvements) Tj ET
+BT /F2 12 Tf 45 397 Td (12.1 Objectives Achieved) Tj ET
+BT /F1 9 Tf 45 381 Td (The delivered project successfully demonstrates a coherent responsive React) Tj ET
+BT /F1 9 Tf 45 369 Td (catalogue experience with 15 products, multi-criterion filtering, sorting,) Tj ET
+BT /F1 9 Tf 45 357 Td (product-modal details, favourites, a temporary cart, gallery, offers, FAQ and) Tj ET
+BT /F1 9 Tf 45 345 Td (contact validation. Its folder structure and local data model make the) Tj ET
+BT /F1 9 Tf 45 333 Td (interface understandable and extendable.) Tj ET
+BT /F2 12 Tf 45 321 Td (12.2 Challenges and Lessons Learned) Tj ET
+BT /F1 9 Tf 45 305 Td (The project highlights the distinction between a convincing front-end) Tj ET
+BT /F1 9 Tf 45 293 Td (interaction and a production transaction system. Local component state is) Tj ET
+BT /F1 9 Tf 45 281 Td (effective for demonstration but is not durable. Storing formatted prices as) Tj ET
+BT /F1 9 Tf 45 269 Td (strings also requires deliberate conversion before filtering and calculations.) Tj ET
+BT /F1 9 Tf 45 257 Td (Cross-component interactions are managed by lifted state and a small custom) Tj ET
+BT /F1 9 Tf 45 245 Td (browser event, avoiding a global state library.) Tj ET
+BT /F2 12 Tf 45 233 Td (12.3 Recommendations and Future Enhancements) Tj ET
+BT /F1 9 Tf 45 217 Td (Resolve the current build/lint findings and add automated component and end-) Tj ET
+BT /F1 9 Tf 45 205 Td (to-end tests.) Tj ET
+BT /F1 9 Tf 45 193 Td (Add a backend API and normalized database based on the proposed schema.) Tj ET
+BT /F1 9 Tf 45 181 Td (Persist users, favourites, carts, contact messages and orders securely.) Tj ET
+BT /F1 9 Tf 45 169 Td (Implement authenticated checkout, payment integration, server-side price) Tj ET
+BT /F1 9 Tf 45 157 Td (validation and order history.) Tj ET
+BT /F1 9 Tf 45 145 Td (Implement an actual product text search if required; it is not present now.) Tj ET
+BT /F1 9 Tf 45 133 Td (Add accessible keyboard/focus management for custom overlays, and conduct) Tj ET
+BT /F1 9 Tf 45 121 Td (formal cross-browser/performance testing.) Tj ET
+BT /F1 9 Tf 45 109 Td (Replace placeholder company/contact information and capture final screenshots) Tj ET
+BT /F1 9 Tf 45 97 Td (after deployment.) Tj ET
+BT /F2 12 Tf 45 85 Td (12.4 Documentation Standards) Tj ET
+BT /F1 9 Tf 45 69 Td (This report distinguishes verified implementation from recommended production) Tj ET
+BT /F1 9 Tf 45 57 Td (work. It does not claim backend services, persistence, payment, search or) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 8) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 25 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 5871 >>
+stream
+BT /F1 9 Tf 45 760 Td (message delivery where the submitted source does not implement them. Before) Tj ET
+BT /F1 9 Tf 45 748 Td (submission, the student should replace cover-page placeholders, update the) Tj ET
+BT /F1 9 Tf 45 736 Td (automatic Table of Contents in Word, insert the numbered running-application) Tj ET
+BT /F1 9 Tf 45 724 Td (screenshots and rerun build/lint after correcting the reported issues.) Tj ET
+BT /F1 8 Tf 45 712 Td (Submission information | Value) Tj ET
+BT /F1 8 Tf 45 702 Td (Student Name | [Insert student name]) Tj ET
+BT /F1 8 Tf 45 692 Td (Student ID | [Insert student ID]) Tj ET
+BT /F1 8 Tf 45 682 Td (Centre | [Insert centre]) Tj ET
+BT /F1 8 Tf 45 672 Td (Course | [Insert course]) Tj ET
+BT /F1 8 Tf 45 662 Td (Semester | [Insert semester]) Tj ET
+BT /F1 8 Tf 45 652 Td (Session | [Insert academic session]) Tj ET
+BT /F1 8 Tf 45 642 Td (Submission Date | [Insert submission date]) Tj ET
+BT /F1 8 Tf 45 632 Td (Technology | Verified use) Tj ET
+BT /F1 8 Tf 45 622 Td (React 19 | Component rendering and local state.) Tj ET
+BT /F1 8 Tf 45 612 Td (Vite 8 | Development server and configured production build tool.) Tj ET
+BT /F1 8 Tf 45 602 Td (Bootstrap 5 | Grid, form, button, accordion and responsive utility classes.) Tj ET
+BT /F1 8 Tf 45 592 Td (Lucide React | Interface icons.) Tj ET
+BT /F1 8 Tf 45 582 Td (CSS | Component-scoped stylesheet files plus global smooth-scrolling/focus) Tj ET
+BT /F1 8 Tf 45 572 Td (overrides.) Tj ET
+BT /F1 8 Tf 45 562 Td (JavaScript modules | Catalogue data, components and helper functions.) Tj ET
+BT /F1 8 Tf 45 552 Td (ID | Requirement | Implementation status / evidence) Tj ET
+BT /F1 8 Tf 45 542 Td (FR-01 | Display a promotional homepage | Implemented: Navbar, Ticker, Hero and) Tj ET
+BT /F1 8 Tf 45 532 Td (Features are rendered by App.) Tj ET
+BT /F1 8 Tf 45 522 Td (FR-02 | Browse products | Implemented: ProductGrid maps the filtered local) Tj ET
+BT /F1 8 Tf 45 512 Td (catalogue to cards.) Tj ET
+BT /F1 8 Tf 45 502 Td (FR-03 | Filter products | Implemented: category, dependent type, price, colour) Tj ET
+BT /F1 8 Tf 45 492 Td (and brand controls.) Tj ET
+BT /F1 8 Tf 45 482 Td (FR-04 | Sort products | Implemented: popular \(rating\), newest \(descending id\),) Tj ET
+BT /F1 8 Tf 45 472 Td (price ascending and descending.) Tj ET
+BT /F1 8 Tf 45 462 Td (FR-05 | View details | Implemented: ProductCard opens ProductModal.) Tj ET
+BT /F1 8 Tf 45 452 Td (FR-06 | Manage favourites | Implemented in memory via favourite product IDs) Tj ET
+BT /F1 8 Tf 45 442 Td (and visible count.) Tj ET
+BT /F1 8 Tf 45 432 Td (FR-07 | Manage cart | Implemented in memory: add, quantity +/- and subtotal) Tj ET
+BT /F1 8 Tf 45 422 Td (drawer.) Tj ET
+BT /F1 8 Tf 45 412 Td (FR-08 | View promotions and gallery | Implemented: oldPrice-derived offers and) Tj ET
+BT /F1 8 Tf 45 402 Td (eight-image lightbox gallery.) Tj ET
+BT /F1 8 Tf 45 392 Td (FR-09 | Read FAQs | Implemented: Bootstrap collapse accordion.) Tj ET
+BT /F1 8 Tf 45 382 Td (FR-10 | Contact interaction | Implemented: client-side required/email) Tj ET
+BT /F1 8 Tf 45 372 Td (validation and confirmation state.) Tj ET
+BT /F1 8 Tf 45 362 Td (Area | Assessment) Tj ET
+BT /F1 8 Tf 45 352 Td (Technical | Feasible for a demonstrator: the client-only architecture has few) Tj ET
+BT /F1 8 Tf 45 342 Td (infrastructure dependencies.) Tj ET
+BT /F1 8 Tf 45 332 Td (Operational | Usable for browsing and enquiry demonstration; not operationally) Tj ET
+BT /F1 8 Tf 45 322 Td (complete for sales because checkout and contact delivery are absent.) Tj ET
+BT /F1 8 Tf 45 312 Td (Economic | Low running complexity for a static deployment; a production) Tj ET
+BT /F1 8 Tf 45 302 Td (service would require API, database, security and payment costs.) Tj ET
+BT /F1 8 Tf 45 292 Td (Schedule | The component/data separation permits focused incremental) Tj ET
+BT /F1 8 Tf 45 282 Td (enhancement.) Tj ET
+BT /F1 8 Tf 45 272 Td (State owner | State | Purpose) Tj ET
+BT /F1 8 Tf 45 262 Td (App | favoriteIds | Array of product IDs; toggled by cards/modal and shown in) Tj ET
+BT /F1 8 Tf 45 252 Td (Navbar.) Tj ET
+BT /F1 8 Tf 45 242 Td (App | cartItems, isCartOpen | Cart records/quantities and drawer visibility.) Tj ET
+BT /F1 8 Tf 45 232 Td (ProductSection | filters | Category, type, price ceiling, colour, brand and) Tj ET
+BT /F1 8 Tf 45 222 Td (sort selection.) Tj ET
+BT /F1 8 Tf 45 212 Td (ProductCard | showModal | Whether its detail modal is rendered.) Tj ET
+BT /F1 8 Tf 45 202 Td (Gallery | activeImage | Selected lightbox image.) Tj ET
+BT /F1 8 Tf 45 192 Td (Contact | form, errors, submitted | Controlled form, validation feedback and) Tj ET
+BT /F1 8 Tf 45 182 Td (local success message.) Tj ET
+BT /F1 8 Tf 45 172 Td (Navbar | visitorCount, isMenuOpen | Browser-local counter and mobile menu) Tj ET
+BT /F1 8 Tf 45 162 Td (visibility.) Tj ET
+BT /F1 8 Tf 45 152 Td (Ticker | now | Live one-second clock.) Tj ET
+BT /F1 8 Tf 45 142 Td (Table | Key fields and types | Constraints/relationships) Tj ET
+BT /F1 8 Tf 45 132 Td (categories | category_id INT PK; name VARCHAR\(80\) | name UNIQUE, NOT NULL.) Tj ET
+BT /F1 8 Tf 45 122 Td (products | product_id INT PK; category_id INT FK; name VARCHAR\(180\); type) Tj ET
+BT /F1 8 Tf 45 112 Td (VARCHAR\(120\); colour VARCHAR\(60\); brand VARCHAR\(80\); price DECIMAL\(12,2\);) Tj ET
+BT /F1 8 Tf 45 102 Td (old_price DECIMAL\(12,2\) NULL; rating DECIMAL\(2,1\); description TEXT | price >=) Tj ET
+BT /F1 8 Tf 45 92 Td (0; old_price > price when supplied; belongs to one category.) Tj ET
+BT /F1 8 Tf 45 82 Td (users | user_id INT PK; full_name VARCHAR\(120\); email VARCHAR\(254\) | email) Tj ET
+BT /F1 8 Tf 45 72 Td (UNIQUE; required for account-based features.) Tj ET
+BT /F1 8 Tf 45 62 Td (reviews | review_id INT PK; product_id INT FK; user_id INT FK; rating TINYINT;) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 9) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 25 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 6031 >>
+stream
+BT /F1 8 Tf 45 760 Td (comment TEXT | rating between 1 and 5; one product and one author.) Tj ET
+BT /F1 8 Tf 45 750 Td (contact_messages | message_id INT PK; user_id INT FK NULL; name VARCHAR\(120\);) Tj ET
+BT /F1 8 Tf 45 740 Td (email VARCHAR\(254\); message TEXT; created_at TIMESTAMP | name/email/message) Tj ET
+BT /F1 8 Tf 45 730 Td (required; optional linked user.) Tj ET
+BT /F1 8 Tf 45 720 Td (wishlists | wishlist_id INT PK; user_id INT FK; product_id INT FK; created_at) Tj ET
+BT /F1 8 Tf 45 710 Td (TIMESTAMP | UNIQUE\(user_id, product_id\).) Tj ET
+BT /F1 8 Tf 45 700 Td (orders | order_id INT PK; user_id INT FK; subtotal DECIMAL\(12,2\); status) Tj ET
+BT /F1 8 Tf 45 690 Td (VARCHAR\(30\); created_at TIMESTAMP | subtotal >= 0; belongs to one user.) Tj ET
+BT /F1 8 Tf 45 680 Td (order_items | order_item_id INT PK; order_id INT FK; product_id INT FK;) Tj ET
+BT /F1 8 Tf 45 670 Td (quantity INT; unit_price DECIMAL\(12,2\) | quantity > 0; preserves price at time) Tj ET
+BT /F1 8 Tf 45 660 Td (of order.) Tj ET
+BT /F1 8 Tf 45 650 Td ([ SCREENSHOT PLACEHOLDER ] Homepage and Hero Banner) Tj ET
+BT /F1 8 Tf 45 640 Td ([ SCREENSHOT PLACEHOLDER ] Navigation and Mobile Menu) Tj ET
+BT /F1 8 Tf 45 630 Td ([ SCREENSHOT PLACEHOLDER ] Product Catalogue) Tj ET
+BT /F1 8 Tf 45 620 Td ([ SCREENSHOT PLACEHOLDER ] Product Filters) Tj ET
+BT /F1 8 Tf 45 610 Td ([ SCREENSHOT PLACEHOLDER ] Product Details Modal) Tj ET
+BT /F1 8 Tf 45 600 Td ([ SCREENSHOT PLACEHOLDER ] Cart Drawer) Tj ET
+BT /F1 8 Tf 45 590 Td ([ SCREENSHOT PLACEHOLDER ] Gallery) Tj ET
+BT /F1 8 Tf 45 580 Td ([ SCREENSHOT PLACEHOLDER ] Offers) Tj ET
+BT /F1 8 Tf 45 570 Td ([ SCREENSHOT PLACEHOLDER ] About and FAQ) Tj ET
+BT /F1 8 Tf 45 560 Td ([ SCREENSHOT PLACEHOLDER ] Contact and Footer) Tj ET
+BT /F1 8 Tf 45 550 Td ([ SCREENSHOT PLACEHOLDER ] Tablet View) Tj ET
+BT /F1 8 Tf 45 540 Td ([ SCREENSHOT PLACEHOLDER ] Mobile View) Tj ET
+BT /F1 8 Tf 45 530 Td (Issue | Action) Tj ET
+BT /F1 8 Tf 45 520 Td (Product list appears empty | Use Clear Filters.) Tj ET
+BT /F1 8 Tf 45 510 Td (Modal will not close | Press Escape, click the close X, or click outside the) Tj ET
+BT /F1 8 Tf 45 500 Td (panel.) Tj ET
+BT /F1 8 Tf 45 490 Td (Cart contents disappear | This is expected after a page refresh because cart) Tj ET
+BT /F1 8 Tf 45 480 Td (state is not persisted.) Tj ET
+BT /F1 8 Tf 45 470 Td (Contact confirmation expected by email | The app does not transmit email; the) Tj ET
+BT /F1 8 Tf 45 460 Td (confirmation is visual only.) Tj ET
+BT /F1 8 Tf 45 450 Td (Close the site | Close the browser tab. For local hosting, stop the Vite) Tj ET
+BT /F1 8 Tf 45 440 Td (terminal with Ctrl+C.) Tj ET
+BT /F1 8 Tf 45 430 Td (Module | Purpose, inputs/outputs and key relationships) Tj ET
+BT /F1 8 Tf 45 420 Td (main.jsx | Imports Bootstrap/global CSS and mounts App in React StrictMode.) Tj ET
+BT /F1 8 Tf 45 410 Td (App.jsx | Top-level composition; owns favourites, cart and cart-drawer state;) Tj ET
+BT /F1 8 Tf 45 400 Td (passes callbacks/counts.) Tj ET
+BT /F1 8 Tf 45 390 Td (Navbar | Anchor navigation, category CustomEvent dispatch, visitor counter,) Tj ET
+BT /F1 8 Tf 45 380 Td (mobile overlay, favourite/cart indicators.) Tj ET
+BT /F1 8 Tf 45 370 Td (Ticker | Scrolling announcements and one-second display clock.) Tj ET
+BT /F1 8 Tf 45 360 Td (Hero | Hero asset, marketing content and scroll-to-products action.) Tj ET
+BT /F1 8 Tf 45 350 Td (Features | Four static feature cards.) Tj ET
+BT /F1 8 Tf 45 340 Td (ProductSection | Filter state, option derivation, CustomEvent listener,) Tj ET
+BT /F1 8 Tf 45 330 Td (filtering/sorting and catalogue layout.) Tj ET
+BT /F1 8 Tf 45 320 Td (ProductFilter | Controlled filter controls; returns changes to ProductSection.) Tj ET
+BT /F1 8 Tf 45 310 Td (ProductGrid | Maps matching records to cards or shows no-results state.) Tj ET
+BT /F1 8 Tf 45 300 Td (ProductCard | Renders a product summary, favourite action and per-card modal) Tj ET
+BT /F1 8 Tf 45 290 Td (state.) Tj ET
+BT /F1 8 Tf 45 280 Td (ProductModal | Displays detail; manages Escape/body-scroll lifecycle; triggers) Tj ET
+BT /F1 8 Tf 45 270 Td (cart/favourite callbacks.) Tj ET
+BT /F1 8 Tf 45 260 Td (CartDrawer | Normalizes cart rows, calculates subtotal and exposes) Tj ET
+BT /F1 8 Tf 45 250 Td (quantity/close actions.) Tj ET
+BT /F1 8 Tf 45 240 Td (Gallery | Derives first eight product images and controls a lightbox.) Tj ET
+BT /F1 8 Tf 45 230 Td (Offers | Selects oldPrice records and calculates percentage reductions.) Tj ET
+BT /F1 8 Tf 45 220 Td (About | Static company narrative and four statistics.) Tj ET
+BT /F1 8 Tf 45 210 Td (FAQ | Static FAQ data in Bootstrap accordion markup.) Tj ET
+BT /F1 8 Tf 45 200 Td (Contact | Controlled validation form and local confirmation state.) Tj ET
+BT /F1 8 Tf 45 190 Td (Footer | Static links, category filter dispatch and contact/social) Tj ET
+BT /F1 8 Tf 45 180 Td (presentation.) Tj ET
+BT /F1 8 Tf 45 170 Td (products.js | 15 local records; named allProducts and toNumber exports;) Tj ET
+BT /F1 8 Tf 45 160 Td (default first-three subset.) Tj ET
+BT /F1 8 Tf 45 150 Td (CSS files | Component styling, motion and local responsive overrides.) Tj ET
+BT /F1 8 Tf 45 140 Td (Test ID | Test case | Expected result | Actual / status) Tj ET
+BT /F1 8 Tf 45 130 Td (T-01 | Load page | All sections render in page order. | Code-reviewed;) Tj ET
+BT /F1 8 Tf 45 120 Td (implementation present.) Tj ET
+BT /F1 8 Tf 45 110 Td (T-02 | Choose a category navigation link | Products section scrolls and) Tj ET
+BT /F1 8 Tf 45 100 Td (category filter updates. | Code-reviewed; CustomEvent/listener present.) Tj ET
+BT /F1 8 Tf 45 90 Td (T-03 | Apply filters/sort | Only matching product cards display in requested) Tj ET
+BT /F1 8 Tf 45 80 Td (order. | Code-reviewed; predicate/sort logic present.) Tj ET
+BT /F1 8 Tf 45 70 Td (T-04 | Open/close details | Modal opens; X/backdrop/Escape close it and) Tj ET
+BT /F1 8 Tf 45 60 Td (restore scroll. | Code-reviewed; lifecycle present.) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 10) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 25 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 1183 >>
+stream
+BT /F1 8 Tf 45 760 Td (T-05 | Add/adjust cart item | Item is added/incremented; zero quantity removes) Tj ET
+BT /F1 8 Tf 45 750 Td (it; subtotal updates. | Code-reviewed; state logic present.) Tj ET
+BT /F1 8 Tf 45 740 Td (T-06 | Submit invalid contact form | Inline errors appear. | Code-reviewed;) Tj ET
+BT /F1 8 Tf 45 730 Td (validate\(\) present.) Tj ET
+BT /F1 8 Tf 45 720 Td (T-07 | Submit valid contact form | Confirmation displays and fields clear; no) Tj ET
+BT /F1 8 Tf 45 710 Td (message transmission. | Code-reviewed; local behaviour present.) Tj ET
+BT /F1 8 Tf 45 700 Td (T-08 | Responsive UI | Grid/menu/modal changes at defined breakpoints. |) Tj ET
+BT /F1 8 Tf 45 690 Td (Static CSS/Bootstrap review complete; browser matrix not executed.) Tj ET
+BT /F1 8 Tf 45 680 Td (T-09 | npm run build | Production bundle should build. | Failed in inspected) Tj ET
+BT /F1 8 Tf 45 670 Td (environment: Vite/Rolldown emitted-name error.) Tj ET
+BT /F1 8 Tf 45 660 Td (T-10 | npm run lint | No lint errors expected. | Failed: react-hooks/set-) Tj ET
+BT /F1 8 Tf 45 650 Td (state-in-effect in Navbar.jsx line 40.) Tj ET
+BT /F1 8 Tf 450 28 Td (Fanimation eProject Report | Page 11) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 25 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Type /Pages /Kids [ 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R ] /Count 11 >>
+endobj
+26 0 obj
+<< /Type /Catalog /Pages 25 0 R >>
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000004793 00000 n 
+0000004930 00000 n 
+0000009879 00000 n 
+0000010016 00000 n 
+0000015111 00000 n 
+0000015248 00000 n 
+0000020297 00000 n 
+0000020435 00000 n 
+0000025664 00000 n 
+0000025803 00000 n 
+0000031282 00000 n 
+0000031421 00000 n 
+0000036585 00000 n 
+0000036724 00000 n 
+0000041779 00000 n 
+0000041918 00000 n 
+0000047841 00000 n 
+0000047980 00000 n 
+0000054063 00000 n 
+0000054202 00000 n 
+0000055437 00000 n 
+0000055576 00000 n 
+0000055705 00000 n 
+trailer
+<< /Size 27 /Root 26 0 R >>
+startxref
+55756
+%%EOF
